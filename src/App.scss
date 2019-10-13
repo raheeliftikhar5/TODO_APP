@@ -1,0 +1,29 @@
+
+.App {
+  padding: 50px 0;
+  background: #e9ecef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    .card {
+      flex: 1;
+      display: flex;
+    }
+  }
+}
+
+header h1 {
+  margin: 0 0 50px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 0;
+}

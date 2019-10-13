@@ -1,0 +1,25 @@
+.tabs {
+    flex-direction: row-reverse;
+    .nav.nav-tabs {
+        border-bottom: 0;
+    
+        .nav-link {
+            border-radius: 0;
+            background: white;
+            color: gray;
+            border-color: #dee2e6 #dee2e6 #fff;
+            text-transform: uppercase;
+            padding: 0.5rem 2.5rem;
+    
+            &.active, &:hover {
+                color: white;
+                font-weight: 500;
+                background: #545b62;
+            }
+    
+            &:not(:last-child) {
+                border-right: 0;
+            }
+        }
+    }
+}
